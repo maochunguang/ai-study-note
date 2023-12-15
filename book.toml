@@ -1,0 +1,6 @@
+[book]
+authors = ["maochunguang"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ai study note for new learning"
