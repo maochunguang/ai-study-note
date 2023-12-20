@@ -1,3 +1,7 @@
+# 机器学习和深度学习
+* [机器学习概念](ml-learning/README.md)
+  * [深度学习](ml-learning/deep-learning.md)
+
 # 本地跑大模型
 
 * [本地跑大模型准备](local-run/README.md)
