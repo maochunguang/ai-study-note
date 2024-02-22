@@ -5,7 +5,7 @@
 
 实现原理如下图所示，过程包括加载文件 -> 读取文本 -> 文本分割 -> 文本向量化 -> 问句向量化 -> 在文本向量中匹配出与问句向量最相似的 top k个 -> 匹配出的文本作为上下文和问题一起添加到 prompt中 -> 提交给 LLM生成回答。
 
-![原理图](../images/langchain-chatglm.png)
+![原理图](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/langchain-chatglm.png)
 
 ## 环境准备
 ### 硬件准备：
@@ -132,3 +132,7 @@ python startup.py -a
 ```
 ### 7、知识库测试
 我这里上传了基本epub书籍，都是金融相关的。搜索什么是指数基金是可以显示知识库来源的
+
+![img](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/v2-cfc6b68f151b1ea8148093e0034ad686_1440w.webp)
+
+![img](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/v2-d3494e31e9a8c04fcd98da270adef82d_1440w.webp)
